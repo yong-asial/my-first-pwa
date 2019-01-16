@@ -1,0 +1,12 @@
+{
+  "name": "monaca-pwa-template-minimum",
+  "displayName": "Monaca PWA Template Minimum",
+  "dependencies": {},
+  "scripts": {
+    "monaca:preview": "npm run dev",
+    "dev": "browser-sync start --no-open -s www/ --watch --port 8080 --ui-port 8081"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.5"
+  }
+}
