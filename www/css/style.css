@@ -1,2 +1,14 @@
-/**/
+article {
+    max-width: 400px;
+    padding: 20px;
+    overflow: hidden;
+}
 
+article img {
+    margin-right: 15px;
+    float: left;
+}
+
+article p, h1 {
+    margin-right: 15px;
+}
