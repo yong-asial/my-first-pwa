@@ -12,7 +12,7 @@ async function fetchNews() {
                 let piece = `
                     <article>
                         <h1><a href="${article.url}" target="_blank">${article.title}</a></h1>
-                        <img src="${article.urlToImage}" onerror="this.src='/images/no-image-icon.png'" width="100px" height="100px" />
+                        <img src="${article.urlToImage}" width="100px" height="100px" />
                         <p>${article.description}</p>
                     </article>
                 `;
