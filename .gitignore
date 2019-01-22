@@ -6,3 +6,4 @@
 .vscode/
 typings/
 node_modules
+www/service-worker.js
