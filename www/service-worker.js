@@ -118,6 +118,6 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "script/main.js",
-    "revision": "d2550dc38d6aa583325427adf3de21a8"
+    "revision": "a6823900ad317ef1c8dda58f98fb8054"
   }
 ]);
