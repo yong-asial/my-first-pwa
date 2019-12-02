@@ -9,7 +9,7 @@
     "dev": "browser-sync start -s www/ --watch --port 8080 --ui-port 8081"
   },
   "devDependencies": {
-    "browser-sync": "^2.24.5",
-    "workbox-cli": "^3.6.3"
+    "browser-sync": "^2.26.7",
+    "workbox-cli": "^4.3.1"
   }
 }
