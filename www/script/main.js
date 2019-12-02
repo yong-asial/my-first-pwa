@@ -1,5 +1,6 @@
 const API_KEY = 'e7d03207d3f24435a679826f442a8df4';
 const source = 'google-news';
+
 const url = 'https://newsapi.org/v2/top-headlines?sources=' + source + '&apiKey=' + API_KEY;
 
 async function fetchNews() {
