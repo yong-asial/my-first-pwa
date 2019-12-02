@@ -1,20 +1,16 @@
- version: 2
- jobs:
-   build:
+version: 2
+jobs:
+  build:
     docker:
-      - image: circleci/node:12-browsers
-     steps:
+      - image: circleci/node:lts
+
+    steps:
       - checkout
+
       - run:
-          name: Print system information
-          command: |
-            echo "node $(node -v)"
-            echo "npm v$(npm --version)"
+          name: Install Dependencies
+          command: npm i
+
       - run:
-          name: Install dependencies
-          command: |
-            npm install
-      - run:
-          name: Install dependencies
-          command: |
-            npm run build
+          name: Build
+          command: npm run build
