@@ -11,5 +11,5 @@ npm install
 
 ```
 cd my-first-pwa
-monaca preview
+npm run dev
 ```
